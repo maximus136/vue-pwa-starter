@@ -1,0 +1,4 @@
+{
+  "extends": ["vue", "xo-space/esnext"],
+  "plugins": ["vue"],
+}
