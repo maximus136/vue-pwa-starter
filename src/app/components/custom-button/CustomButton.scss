@@ -1,0 +1,23 @@
+	.button-text {
+		padding: 10px 16px;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+	.button-text:focus {
+		outline: none;
+	}
+	.color {
+		color: #ffffff;
+		background: #000000;
+	}
+	.plain {
+		color: #000000;
+		background: #ffffff;
+		letter-spacing: 0.5px;
+	}
+	.text {
+		color: #ffffff;
+		background: transparent;
+    border: none;
+	}	

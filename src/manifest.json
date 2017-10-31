@@ -1,0 +1,13 @@
+{
+  "name": "PWA",
+  "short_name": "PWA",
+  "description": "A PWA",
+  "lang": "en-US",
+  "theme_color": "#00bcb1",
+  "background_color": "#f6f6f4",
+  "display": "standalone",
+  "orientation": "landscape",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": []
+}
