@@ -1,6 +1,6 @@
 # Vue PWA Starter
 
-###A starter kit for a PWA app in Vue.
+#### A starter kit for a PWA app in Vue.
 
 The starter kit comes with:
 - **vuex** for state management
