@@ -3,10 +3,10 @@
 #### A starter kit for a PWA app in Vue.
 
 The starter kit comes with:
-- **vuex** for state management
-- **localforage** for offline storage
+- *[vuex](https://github.com/vuejs/vuex)* for state management
+- *[localForage](https://github.com/localForage/localForage)* for offline storage
 
-The build configuration is loosely taken from the [generator-fountain-vue](https://github.com/FountainJS/generator-fountain-vue).
+The build configuration is a modified version of the *[generator-fountain-vue](https://github.com/FountainJS/generator-fountain-vue)* from the good people at FountainJS.
 
 
 #### Usage
