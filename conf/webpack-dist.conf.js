@@ -77,7 +77,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
     }),
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor' }),
+    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', minChunks: Infinity }),
     new SWPrecacheWebpackPlugin({
       cacheId: 'pwa-vue',
       dontCacheBustUrlsMatching: /\.\w{8}\./,

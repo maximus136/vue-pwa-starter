@@ -1,11 +1,11 @@
 <template>
-  <footer class="footer">
+  <footer>
     <nav>
-      <div class="container">
-        <ul class="row">
-          <li class="col selected">Lorem</li>
-          <li class="col">Ipsum</li>
-          <li class="col">Lorem</li>
+      <div>
+        <ul>
+          <li>Footer Item 1</li>
+          <li>Footer Item 2</li>
+          <li>Footer Item 3</li>
         </ul>
       </div>
     </nav>

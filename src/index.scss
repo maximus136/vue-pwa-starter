@@ -1,5 +1,16 @@
 /* Common styles */
+.title {
+  top: 50%;
+  position: relative;
+  text-align: center;
+  width: 100%;
 
+  h3 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    color: #a21d10;
+  }
+}
 /* Components */
 @import './src/app/components/header/Header.scss';
 @import './src/app/components/footer/Footer.scss';

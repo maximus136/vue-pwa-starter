@@ -1,20 +1,14 @@
-.footer {
-    padding: 10px 0 0 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+footer {
+  position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
-    nav {
-        background: #ffffff;
-        padding: 10px;
-        ul {
-            list-style: none;
-            li {
-                font: normal 10px;
-                &.selected {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: #720e0e;
+    font-size: 16px;
+  }
 }

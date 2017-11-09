@@ -1,11 +1,8 @@
 import Vue from 'vue';
-import Main from './app/Main.vue';
+import Home from './app/Home.vue';
 import store from './store';
 import VueRouter from 'vue-router';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import 'font-awesome/scss/font-awesome.scss';
 import './index.scss';
 
 Vue.use(VueRouter);
@@ -19,7 +16,7 @@ export default new Vue({
   el: '#root',
   router,
   store,
-  render: h => h(Main)
+  render: h => h(Home)
 });
 (function () {
   if ('serviceWorker' in navigator) {

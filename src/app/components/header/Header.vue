@@ -1,8 +1,8 @@
 <template>
   <header>
-    <div class="container">
-      <div class="row">
-        <h1>Header</h1>
+    <div>
+      <div>
+        <h3>Header</h3>
       </div>
     </div>
   </header>
